@@ -25,7 +25,7 @@ Steps to reproduce:
 2. Submit the following paylaod http://zero.webappsecurity.com/bank/account-activity.html?accountId=18132);alert(1234);//992  
 
 POC:-  
-![man_xss]()  
+![man_xss](https://github.com/ashu1665/report1/blob/master/zero_man_xss.png)  
 
 ### Automatic Test  
 Steps to reproduce:  
@@ -33,9 +33,8 @@ Steps to reproduce:
 2. Choose the 1 option as XSS  
 
 POC:-  
-![auto_xss1]()  
-![auto_xss2]()  
-![auto_xss3]()  
+![auto_xss1](https://github.com/ashu1665/report1/blob/master/zero_xss1.png)  
+![auto_xss2](https://github.com/ashu1665/report1/blob/master/zero_xss2.png)  
 
 ## b) SQL Injection  
 #### Description:-  
@@ -58,7 +57,7 @@ Steps to reproduce
 2. Choose the 2 option SQL 
 
 POC:-  
-![sql_injection]()  
+![sql_injection](https://github.com/ashu1665/report1/blob/master/zero_sql.png)  
 
 ## c) XXE(XML External Entity)  
 #### Description:-  
@@ -73,7 +72,7 @@ Steps to Reproduce
 2. Choose the 3 option XXE  
 
 POC:-  
-![!XXE]()  
+![XXE](https://github.com/ashu1665/report1/blob/master/zero_xxe.png)  
 
 ## d) CORS(Cross-origin resource sharing)    
 #### Description:-  
@@ -94,7 +93,7 @@ Steps to reproduce
 2. Choose the 5 option CORS  
 
 POC:-  
-![CORS1]()  
+![CORS1](https://github.com/ashu1665/report1/blob/master/zero_cors.png)  
 
 ## e) Sensitive Data Leak  
 #### Description  
@@ -109,9 +108,9 @@ Steps to reproduce
 2. Choose the option 8 Sensitive Data Leak  
 
 POC:-  
-![Sensitive1]()  
+![Sensitive1](https://github.com/ashu1665/report1/blob/master/zero_sensitive_1.png)  
 
-![Sensitive2]()  
+![Sensitive2](https://github.com/ashu1665/report1/blob/master/zero_sensitive_2.png)  
 
 ## f) Missing Security Headers  
 #### Description:-    
@@ -122,7 +121,7 @@ Steps to reproduce
 1. Visit https://securityheaders.com/ and in search box enter https://securityheaders.com/  
 
 POC:-  
-![Missing Secuity]()  
+![Missing Secuity](https://github.com/ashu1665/report1/blob/master/zero_man_security_header.png)  
 
 ### Automatic Test  
 Steps to reproduce  
@@ -130,7 +129,7 @@ Steps to reproduce
 2. Choose the option 6 missing security headers  
 
 POC:-  
-![Security_header]()
+![Security_header](https://github.com/ashu1665/report1/blob/master/zero_security_header.png)
 
 # Comparison Between Manual and Automatic Pentest  
 ## Number of bug types Found in Manual Test  
