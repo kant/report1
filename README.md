@@ -49,7 +49,8 @@ Steps to reproduce:
 3. Use the payload payeeId=sprint' using POST request  
 
 POC:-
-![auto_sqli]()  
+![auto_sqli](https://github.com/ashu1665/report1/blob/master/zero-man_sql.png)  
+![auto_sqli2](https://github.com/ashu1665/report1/blob/master/zero_sql_man1.png)  
 
 ### Automatic Test  
 Steps to reproduce  
@@ -81,11 +82,11 @@ Cross-origin resource sharing (CORS) is a browser mechanism which enables contro
 ### Manaual Test  
 Steps to reproduce  
 1. Login into the website  
-2. Visit the url  and intercept the request using burp and send it to repeater  
+2. Visit the url http://zero.webappsecurity.com/bank/account-summary.html and intercept the request using burp and send it to repeater  
 3. Change the origin header to http://bing.com  
 
 POC:-  
-![CORS]()  
+![CORS](https://github.com/ashu1665/report1/blob/master/zero_cors_man.png)    
 
 ### Automatic Test  
 Steps to reproduce  
